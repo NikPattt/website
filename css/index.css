@@ -278,7 +278,9 @@ button:hover, a:hover {
 
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
-  
+  .article{
+    margin-left: 0; margin-right: 0;
+  } 
 }
 
 @media screen and (max-width: 800px) { 
@@ -290,6 +292,9 @@ button:hover, a:hover {
   .column {
     width: 100%;
   }
+  .article{
+    margin-left: 0; margin-right: 0;
+  } 
 }
 
 /* Animazione Fade CSS */
