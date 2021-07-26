@@ -346,6 +346,21 @@ button:hover, a:hover {
 
 /* Responsive CSS */
 
+@media screen and (max-width: 1000px) {
+  .column-project{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column-project{
+    width: 100%;
+  }
+  .article{
+    margin-left: 0; margin-right: 0;
+  } 
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -354,9 +369,7 @@ button:hover, a:hover {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -375,20 +388,10 @@ button:hover, a:hover {
     width: 100%;
     text-align: left;
   }
+  .article{
+    margin-left: 0; margin-right: 0;
+  } 
 }
-
-@media screen and (max-width: 1000px) {
-  .column-project{
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .column-project{
-    width: 100%;
-  }
-}
-
 
 /* Animazione Fade CSS */
 .fade {
