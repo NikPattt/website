@@ -290,6 +290,9 @@ button:hover, a:hover {
   .column {
     width: 100%;
   }
+  article{
+  margin-left: 0; margin-right: 0;
+} 
 }
 
 /* Animazione Fade CSS */
